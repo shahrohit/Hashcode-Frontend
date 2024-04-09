@@ -1,0 +1,1 @@
+type CalenderBoard = (number | string)[];

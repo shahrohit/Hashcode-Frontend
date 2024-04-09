@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-style {
+  @apply bg-primarycol/20 p-1 rounded-full text-primarycol;
+}
+
+.light {
+  --foreground-heading-rgb: 0 0 0;
+  --foreground-para-rgb: 113 113 122;
+  --foreground-easy-rgb: 23 201 100;
+  --foreground-medium-rgb: 245 165 36;
+  --foreground-hard-rgb: 243 18 96;
+  --background-primary-rgb: 229 231 235;
+  --background-secondary-rgb: 209 213 219;
+  --border-color-rgb: 209 213 219;
+  --shadow-color: 209 213 219;
+  --primary-color-rgb: 0 112 240;
+  --secondary-color-rgb: 23 201 100;
+  --tw-gradient-from: 94 162 239;
+  --tw-gradient-stop: 0 114 245;
+  --border-color: 30 41 59;
+  --border-color-op: 0.2;
+}
+.dark {
+  --foreground-heading-rgb: 255 255 255;
+  --foreground-para-rgb: 161 161 170;
+  --background-primary-rgb: 0 0 0;
+  --background-secondary-rgb: 34 40 49;
+  --border-color-rbg: 102 116 204;
+  --shadow-color: 102 116 204;
+  --primary-color-rgb: 0 112 240;
+  --secondary-color-rgb: 23 201 100;
+  --foreground-easy-rgb: 23 201 100;
+  --foreground-medium-rgb: 245 165 36;
+  --foreground-hard-rgb: 243 18 96;
+  --border-color: 30 41 59;
+  --border-color-op: 0.8;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.study-plan-grid {
+  display: grid;
+  grid-template: repeat(6, 1fr) repeat(1, 1fr);
+}
